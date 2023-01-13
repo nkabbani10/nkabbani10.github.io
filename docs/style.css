@@ -1,0 +1,11 @@
+  .banner {
+    width: 128px;
+    height: 128px;
+    border-radius: 128px;
+    display: flex;
+    justify-content: center;
+  }
+  body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
