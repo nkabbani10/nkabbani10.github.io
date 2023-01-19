@@ -1,9 +1,26 @@
 
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 640px;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  
   body {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #f8f5f2;
+    display: flex;
+    justify-content: center;
   }
+  .banner{
+      display: flex;
+      justify-content: center;
+    }
+
   .banner-image {
     width: 128px;
     height: 128px;
@@ -13,4 +30,26 @@
     border: 1rem solid;
     border-block-color: red;
     writing-mode: horizontal-tb;
+  }
+
+  .name {
+    color: #222525;
+  }
+  .social-icons a {
+    color: #222525;
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+    padding: 100px;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+    padding: 5px
+  }
+  .social-icons {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
   }
