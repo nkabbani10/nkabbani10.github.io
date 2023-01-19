@@ -1,11 +1,16 @@
-  .banner {
-    width: 128px;
-    height: 128px;
-    border-radius: 128px;
-    display: flex;
-    justify-content: center;
-  }
+
   body {
     padding-top: 40px;
     padding-bottom: 40px;
+    background-color: #f8f5f2;
+  }
+  .banner-image {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 128px;
+    display: flex;
+    border: 1rem solid;
+    border-block-color: red;
+    writing-mode: horizontal-tb;
   }
